@@ -1,4 +1,4 @@
-import profilePic from "../assets/ravikumarProfile.webp";
+import profilePic from "../assets/Prabhakar.webp";
 import { HERO_CONTENT } from "../constants";
 const Hero = () => {
   return (
@@ -8,15 +8,17 @@ const Hero = () => {
           <div className="flex justify-center lg:p-8">
             <img
               src={profilePic}
-              alt="Ravi Kumar"
-              className="border ☐ border-stone-900 rounded-3xl"
+              alt="Prabhakar Kumar"
+              width={500}
+              height={500}
+              className="border ☐ border-stone-900 rounded-2xl"
             />
           </div>
         </div>
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start mt-10">
             <h2 className="pb-2 text-4xl tracking-tighter lg:text-8x1">
-              Ravi Kumar
+              Prabhakar Kumar
             </h2>
             <span className="bg-gradient-to-r Ifrom-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
               Full Stack Developer
