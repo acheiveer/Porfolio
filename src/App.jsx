@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Hero from "./components/hero";
 import Navbar from "./components/Navbar";
@@ -20,7 +21,7 @@ const App = () => {
       <Technologies/>
       <Projects/>
       <Experience/>
-      
+      <Contact/>
       </div>
     </div>
   );
