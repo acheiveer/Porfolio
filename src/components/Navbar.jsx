@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import logo from "../assets/raviKumarLogo.webp"
+import logo from "../assets/logo.webp"
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () =>{
@@ -10,8 +10,8 @@ const Navbar = () =>{
             <img
               src={logo}
               className="mx-2"
-              width={50}
-              height={33}
+              width={100}
+              height={100}
               alt="logo"
             />
           </a>
