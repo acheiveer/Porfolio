@@ -13,18 +13,43 @@ export const EXPERIENCES = [
     role: "Software Developer (Associate)",
     company: "PwC India",
     description: ``,
-    technologies: ["Javascript", "Typescript", "React.js", "Next.js", "Typescript"],
+    technologies: [
+      "Javascript",
+      "Typescript",
+      "React.js",
+      "Next.js",
+      "Typescript",
+    ],
   },
-  
 ];
 
 export const PROJECTS = [
   {
-    title: "LexiAI",
+    title: "AIContentHub",
     image: project1,
-    description:
-      "An AI-powered blogging assistant that generates high-quality blog posts and images using advanced models like GPT-4-mini and DALL·E3. Transform ideas into engaging, tailored content effortlessly.",
-    technologies: ["", "", "", "", ""],
+    description: `
+      <p>A modern, feature-rich blogging application designed for writers, readers, and communities to connect and engage. Built with a robust tech stack (TypeScript, Prisma, PostgreSQL, Cloudflare Workers, etc.), this application offers a seamless user experience for content creation and interaction.</p>
+      
+      <h4 class="font-semibold mt-4">Key Features</h4>
+      <ul class="list-disc pl-6">
+        <li>Secure user authentication and role-based access.</li>
+        <li>AI-powered content suggestions for improved writing.</li>
+        <li>Collaborative blogging with real-time editing and role management.</li>
+        <li>Fully responsive design with a mobile-first approach.</li>
+        <li>Comment System: Add, view, edit, or delete user-specific comments on blogs.</li>
+        <li>Voting System: Upvote/downvote comments, prevent duplicate voting, and display real-time vote counts.</li>
+        <li>Likes on Blogs: Like/unlike functionality and track the total number of likes per blog.</li>
+        <li>Advanced analytics for tracking blog performance and user engagement.</li>
+      </ul>
+      
+      <h4 class="font-semibold mt-4">Future Enhancements</h4>
+      <ul class="list-disc pl-6">
+        <li>Gamification to incentivize participation.</li>
+        <li>Scheduled posts for improved content planning.</li>
+        <li>Comprehensive search and filtering for better discoverability.</li>
+      </ul>
+    `,
+    technologies: ["TypeScript", "React.js", "Node.js", "Express.js", "Hono.js","Cloudflare workers", "Prisma ORM", "PostgreSQL", "Tailwind CSS", "Zod", "JWT-based Authentication",],
   },
   {
     title: "Cloud IDE",
@@ -36,8 +61,7 @@ export const PROJECTS = [
   {
     title: "DhanYatra",
     image: project3,
-    description:
-      "Basic version of PayTM(Wallet)",
+    description: "Basic version of PayTM(Wallet)",
     technologies: ["Node.js", "Express.js", "React", "MongoDB"],
   },
   {
